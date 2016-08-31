@@ -8,7 +8,7 @@ printHelp () {
 
 if [ $# -eq 0 ]; then
   printHelp
-elif [ $# > 2 ]; then
+elif [ $# -gt 2 ]; then
   printHelp
 elif [ $# -eq 2 ]; then
   electronVersion=$2
