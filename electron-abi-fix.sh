@@ -50,3 +50,5 @@ fi
 printf "\n\nAttemping to fix module mismatch error...\n\n"
 
 npm rebuild --runtime=electron --target=$electronVersion --disturl=https://atom.io/download/atom-shell --abi=$abiVersion
+
+printf "\n\nHopefully now you can start your Electron app!\n\n"
