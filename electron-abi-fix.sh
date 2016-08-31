@@ -15,7 +15,6 @@ elif [ $# -eq 2 ]; then
 fi
 
 abiVersion=$1
-echo $abiVersion
 
 if ! command -v jq >/dev/null; then
   echo "I couldn't find jq but I need it. Perhaps try 'apt-get install jq' or 'yum install jq' then run me again."
