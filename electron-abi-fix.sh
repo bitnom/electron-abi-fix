@@ -2,7 +2,7 @@
 # Let's fix your project!
 
 printHelp () {
-  printf "\nThe Elecron ABI fixer resolves module mismatch errors.\n\nUsage: sh electron-abi-fix.sh 49 1.3.4\n\nIn this example 49 is the target abi version and 1.3.4 is the Electron version. If you don't specify the Electron version, this script will try to determine it by your package.json.\n\n"
+  printf "\nThe Electron ABI fixer resolves module mismatch errors.\n\nUsage: sh electron-abi-fix.sh 49 1.3.4\n\nIn this example 49 is the target abi version and 1.3.4 is the Electron version. If you don't specify the Electron version, this script will try to determine it by your package.json.\n\n"
   exit
 }
 
