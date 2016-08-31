@@ -44,7 +44,7 @@ if [ $# < 2 ]; then
   if [ $electronVersion = "null" ]; then
     echo "I couldn't find your electron version specified in package.json. Pass it to me if you need to like: electron-abi-fix.sh 49 1.3.4"
     exit 1
-  else
-    npm rebuild --runtime=electron --target=$electronVersion --disturl=https://atom.io/download/atom-shell --abi=$abiVersion
   fi
 fi
+
+npm rebuild --runtime=electron --target=$electronVersion --disturl=https://atom.io/download/atom-shell --abi=$abiVersion
