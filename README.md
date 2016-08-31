@@ -1,5 +1,5 @@
 # electron-abi-fix
-Fixes "Module version mismatch. Expected x, got x." errors.
+Fixes "Module version mismatch. Expected x, got x." errors. You usually encounter this error when running "npm start"
 
 Installation: Drop into your project's root directory where your package.json file is located.
 
